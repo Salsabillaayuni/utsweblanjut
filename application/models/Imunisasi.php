@@ -15,7 +15,18 @@ class Imunisasi extends CI_Model {
 
     function getDataImunisasiDetail($id_anak){
         $this->db->where('id_anak', $id_anak);
-        $query = $this->db->get('Imunisasi');
+        $query = $this->db->get('data_imunisasi');
         return $query->row();
     }
+
+    function updateDataImunisasi($id_anak, $data){
+        $this->db->where('id_anak', $id_anak);
+        $this->db->update('data_imunisasi', $data);
+    }
+
+    function deleteDataImunisasi($id_anak){
+        $this->db->where('id_anak', $id_anak);
+        $this->db->delete('data_imunisasi');
+    }
 }
+?>

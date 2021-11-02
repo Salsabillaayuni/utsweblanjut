@@ -33,12 +33,24 @@
             <tr>
                 <td>Jenis Kelamin</td>
                 <td>:</td>
-                <td><input type="text" name="jenis_kelamin"></td>
+                <td><input type="radio" name="jenis_kelamin" value= "Laki-Laki">Laki-Laki<input type="radio" name="jenis_kelamin" value= "Perempuan">Perempuan</td>
             </tr>
             <tr>
                 <td>Nama Ibu</td>
                 <td>:</td>
                 <td><input type="text" name="nama_ibu"></td>
+            </tr>
+            <tr>
+                <td>Jenis Imunisasi</td>
+                <td>:</td>
+			    <td><select name="Jenis Imunisasi" class="form-control" required>
+				<option value="">Piih Jenis Imunisasi</option>
+			    <option value="vaksin">vaksin</option>
+				<option value="campak">campak</option></td>
+			</select>
+            </tr>
+		</div>
+	</div>
             </tr>
             <tr>
                 <td colspan="3"><input type="submit" value="Simpan">
