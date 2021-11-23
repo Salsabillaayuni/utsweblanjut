@@ -12,7 +12,10 @@ class Welcome extends CI_Controller {
 	{
 		$recordImn = $this->Imunisasi->getDataImunisasi();
 		$DATA = array('data_imn' => $recordImn);
-		$this->load->view('home', $DATA);
+		$this->load->view('template/header', $DATA);
+		$this->load->view('template/sidebar', $DATA);
+		$this->load->view('template/footer', $DATA);
+		$this->load->view('template/v_home', $DATA);
 	}
 	public function input()
 	{
