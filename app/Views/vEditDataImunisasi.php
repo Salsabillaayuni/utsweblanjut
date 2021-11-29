@@ -32,24 +32,32 @@
                                 <div class="container-fluid d-flex">
                                     <form action="#" method="post">
                                     <div class="mb-3">
-                                            <label for="exampleInputEmail1" class="form-label">Tanggal</label>
+                                            <label for="exampleInputEmail1" class="form-label">Id Anak</label>
                                             <input type="email" class="form-control" autofocus id="exampleInputEmail1" size="75%">
                                         </div>
                                         <div class="mb-3">
-                                            <label for="exampleInputEmail1" class="form-label">Nama Kue</label>
+                                            <label for="exampleInputEmail1" class="form-label">Nama Anak</label>
                                             <input type="email" class="form-control" autofocus id="exampleInputEmail1">
                                         </div>
                                         <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Jumlah</label>
+                                            <label for="exampleInputPassword1" class="form-label">Tempat Lahir</label>
                                             <input type="password" class="form-control" id="exampleInputPassword1">
                                         </div>
                                         <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Harga</label>
+                                            <label for="exampleInputPassword1" class="form-label">Tanggal Lahir</label>
                                             <input type="password" class="form-control" id="exampleInputPassword1">
                                         </div>
                                         <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Total</label>
+                                            <label for="exampleInputPassword1" class="form-label">Jenis Kelamin</label>
                                             <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="disabledSelect" class="form-label">Jenis Imunisasi</label>
+                                            <select id="disabledSelect" class="form-select">
+                                                <option>Campak</option>
+                                                <option>Vitamin</option>
+                                                <option>Polio</option>
+                                            </select>
                                         </div>
                                         <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"> Submit</i></button>
                                     </form>

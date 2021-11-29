@@ -39,8 +39,8 @@
                         <thead>
                             <tr>
                             <th scope="col">No</th>
-                            <th scope="col">Id_Anak<th>
-                            <th scope="col">Nama_Anak</th>
+                            <th scope="col">Id Anak<th>
+                            <th scope="col">Nama Anak</th>
                             <th scope="col">Tempat Lahir</th>
                             <th scope="col">Tanggal Lahir</th>
                             <th scope="col">Jenis Kelamin</th>
@@ -54,9 +54,9 @@
                             <td>276163</td>
                             <td></td>
                             <td>Rey</td>
-                            <td>Nganjuk</td>
-                            <td>12-02-2021</td>
-                            <td>Perempuan</td>
+                            <td>Bandung</td>
+                            <td>07-11-2021</td>
+                            <td>Laki-Laki</td>
                             <td>Campak</td>
                             <td>
                               <a href="/editDataImunisasi" class="btn btn-warning"><i class="fas fa-edit"></i>Edit</a>
@@ -65,12 +65,13 @@
                             </tr>
                             <tr>
                             <th scope="row">2</th>
-                            <td>15/11/2021</td>
+                            <td>65689</td>
                             <td></td>
-                            <td>Birthday Tart</td>
-                            <td>2</td>
-                            <td>Rp. 50000</td>
-                            <td>Rp. 100000</td>
+                            <td>Langit</td>
+                            <td>Lampung</td>
+                            <td>01-02-2020</td>
+                            <td>Perempuan</td>
+                            <td>Vitamin</td>
                             <td>
                               <a href="/editDataImunisasi" class="btn btn-warning"><i class="fas fa-edit"></i>Edit</a>
                               <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i>Hapus</a>
